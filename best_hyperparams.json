@@ -1,0 +1,28 @@
+{
+  "best_config": {
+    "hidden_dims": [
+      200,
+      300,
+      350,
+      300,
+      200
+    ],
+    "dropout": 0.2,
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "weight_decay": 0.05,
+    "physics_weights": {
+      "dBW_dL": 0.46368457667812574,
+      "dIL_dL": 0.6275831161541958,
+      "dVpi_dL": 0.6782328144436551,
+      "d2IL_dPN2": 0.6650518869891311,
+      "d2Vpi_dPN2": 0.4501381158930827,
+      "dBW_dVbias": 0.69491025412831,
+      "dVpi_dVbias": 0.8047193258410612,
+      "dIL_dVbias": 0.004941480271880017
+    }
+  },
+  "final_train_loss": 0.02870270237326622,
+  "final_test_loss": 0.020378172397613525,
+  "n_params": 336253
+}
