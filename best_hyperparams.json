@@ -1,0 +1,19 @@
+{
+  "n_experts": 9,
+  "width_scale": 0.4458156684740902,
+  "gating_hidden": 20,
+  "dropout": 0.3103287903902185,
+  "learning_rate": 0.007584508968993816,
+  "weight_decay": 2.064610858990432e-05,
+  "batch_size": 16,
+  "expert_hidden_dims": [
+    89,
+    134,
+    156,
+    134,
+    89
+  ],
+  "n_params": 617139,
+  "test_loss": 0.00670591788366437,
+  "train_loss": 0.01389985904097557
+}
